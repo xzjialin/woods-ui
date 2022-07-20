@@ -42,3 +42,29 @@ $state-prefix: 'is-' !default;
       }
     }
   }
+
+
+  @mixin tag-variant($variant, $pseudo: false) {
+    @each $key, $value in $variant {
+      // 第一层是多态的类型
+      &.s-tag--#{$key} {
+        @each $item-key, $item-value in $value {
+          // 第二层是多态类型下的样式
+          @if $pseudo {
+            // 如果是伪类就继续第三层
+            &:#{$item-key} {
+              @each $sub-item-key, $sub-item-value in $item-value {
+                // 第三层是伪类的样式
+                #{$sub-item-key}: $sub-item-value;
+              }
+            }
+          } @else {
+            // 不是伪类就直接设置样式
+            #{$item-key}: $item-value;
+          }
+        }
+      }
+    }
+  }
+
+

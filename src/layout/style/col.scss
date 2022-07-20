@@ -1,5 +1,5 @@
 @use 'sass:math';
-@import './col-base.scss';
+@import '../../style/mixin.scss';
 $namespace: 's' !default;
 [class*='#{$namespace}-col-'] {
     box-sizing: border-box;

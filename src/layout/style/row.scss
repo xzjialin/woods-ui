@@ -1,6 +1,6 @@
 
 @import '../../style/variable.scss';
-@import './col-base.scss';
+@import '../../style/mixin.scss';
 .s-row {
     display: flex;
     flex-wrap: wrap;

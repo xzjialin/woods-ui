@@ -1,0 +1,36 @@
+// 所有不同type按钮自定义样式
+@import '../../style/variable.scss';
+
+// 按钮类型的配置
+$type: (
+    
+      default:(
+        color: #3f536e,
+        border-color: #dfdfdf,
+        background-color: #f7f7f7
+        ),
+      success:(
+        background-color: $s-tag-success,
+        border-color: $s-tag-success-border,
+        color: $s-tag-success-color
+        ),
+      primary: (
+        background-color: $s-tag-primary,
+        border-color: $s-tag-primary-border,
+        color: $s-tag-primary-color
+        ),
+      warning: (
+        background-color: $s-tag-warning,
+        border-color: $s-tag-warning-border,
+        color: $s-tag-warning-color
+        ),
+      danger:(
+        background-color: $s-tag-danger,
+        border-color: $s-tag-danger-border,
+        color: $s-tag-danger-color
+          ),
+      close: (
+        font-size: 12px
+      )
+        
+);

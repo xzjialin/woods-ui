@@ -118,3 +118,20 @@ $s-brand-active-focus: var(
   --s-brand-active-focus,
   #344899
 ); // 品牌色焦点色（重度加深）
+
+
+$s-tag-primary: var(--s-tag-primary,#3faaf51a);
+$s-tag-primary-border: var(--s-tag-primary-border-color,#3faaf533);
+$s-tag-primary-color: var(--s-tag-primary-color,#3faaf5);
+
+$s-tag-success: var(--s-tag-success,#12ce661a);
+$s-tag-success-border: var(--s-tag-success-border-color,#12ce6633);
+$s-tag-success-color: var(--s-tag-success-color,#13ce66);
+
+$s-tag-warning: var(--s-tag-warning,#f7ba291a);
+$s-tag-warning-border: var(--s-tag-warning-border-color,#f7ba2933);
+$s-tag-warning-color: var(--s-tag-warning-color,#f7ba2a);
+
+$s-tag-danger: var(--s-tag-danger,#ff49491a);
+$s-tag-danger-border: var(--s-tag-danger-border-color,#ff494933);
+$s-tag-danger-color: var(--s-tag-danger-color,#ff4949);
