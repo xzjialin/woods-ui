@@ -1,0 +1,68 @@
+body {
+  font-size: 14px;
+}
+table td, table th {
+  padding: 10px 23px;
+}
+.demo-spacing {
+  margin-bottom: 1rem;
+}
+.common-layout .s-header, .common-layout .s-footer {
+  background-color: #c6e2ff;
+  color: #303133;
+  text-align: center;
+}
+.common-layout .s-header, .common-layout .s-footer, .common-layout .s-main, .common-layout .s-aside {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.common-layout .s-main {
+  background-color: #ecf5ff;
+  color: #303133;
+  text-align: center;
+  height: 150px;
+}
+.common-layout .s-header, .common-layout .s-footer {
+  background-color: #c6e2ff;
+  color: #303133;
+  text-align: center;
+}
+.common-layout .s-aside {
+  background-color: #d9ecff;
+  color: #303133;
+  text-align: center;
+}
+.custom-block p {
+  margin: 1rem 0;
+}
+:root {
+  --ep-c-bg-row: #f9fafc;
+  --ep-c-bg-purple: #d3dce6;
+  --ep-c-bg-purple-dark: #99a9bf;
+  --ep-c-bg-purple-light: #e5e9f2;
+}
+
+.dark {
+  --ep-c-bg-row: #18191a;
+  --ep-c-bg-purple: #46494d;
+  --ep-c-bg-purple-dark: #242526;
+  --ep-c-bg-purple-light: #667180;
+}
+
+.row-bg {
+  padding: 10px 0;
+  background-color: var(--ep-c-bg-row);
+}
+
+.ep-bg-purple-dark {
+  background: var(--ep-c-bg-purple-dark);
+}
+
+.ep-bg-purple {
+  background: var(--ep-c-bg-purple);
+}
+
+.ep-bg-purple-light {
+  background: var(--ep-c-bg-purple-light);
+}

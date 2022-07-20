@@ -1,0 +1,8 @@
+.s-footer {
+    --w-footer-padding: 0 20px;
+    --w-footer-height: 60px;
+    padding: var(--w-footer-padding);
+    box-sizing: border-box;
+    flex-shrink: 0;
+    height: var(--w-footer-height);
+}

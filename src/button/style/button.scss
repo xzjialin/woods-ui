@@ -1,0 +1,18 @@
+@use './button-config.scss';
+@import './button-base.scss';
+
+.s-btn {
+    // 导入btn 基础样式
+   @include button-base;
+//    导入btn 不同类型配置 type
+   @include button-variant(button-config.$type);
+   
+//    导入btn 尺寸大小
+   @include button-variant(button-config.$size);
+   // 导入 btn 朴素样式
+   @include button-variant(button-config.$pain);
+//    导入btn  伪类相关配置
+   @include button-variant(button-config.$pseudo,true);
+   //    导入btn  伪类相关配置
+   @include button-variant-pain(button-config.$pseudoPain,true);
+}

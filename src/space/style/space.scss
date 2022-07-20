@@ -1,0 +1,55 @@
+@import '../../style/variable.scss';
+
+// s-space
+$space-prefix-cls: 's-space'; // 等于 s-span
+
+.s-space {
+  display: inline-flex;
+
+  &-vertical {
+    flex-direction: column;
+  }
+
+  &-justify-baseline {
+    justify-content: baseline;
+  }
+
+  &-justify-start {
+    justify-content: start;
+  }
+  &-justify-end {
+    justify-content: end;
+  }
+  &-justify-space-around {
+    justify-content: space-around;
+  }
+  &-justify-center {
+    justify-content: center;
+  }
+  &-justify-space-between {
+    justify-content: space-between;
+  }
+
+
+  &-align-baseline {
+    align-items: baseline;
+  }
+
+  &-align-start {
+    align-items: flex-start;
+  }
+
+  &-align-end {
+    align-items: flex-end;
+  }
+
+  &-align-center {
+    align-items: center;
+  }
+  &-wrap {
+    flex-wrap: wrap;
+  }
+  &-fill {
+    display: flex;
+  }
+}

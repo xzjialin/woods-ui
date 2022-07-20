@@ -1,0 +1,8 @@
+.s-header {
+    --w-header-padding: 0 20px;
+    --w-header-height: 60px;
+    padding: var(--w-header-padding);
+    box-sizing: border-box;
+    flex-shrink: 0;
+    height: var(--w-header-height);
+}

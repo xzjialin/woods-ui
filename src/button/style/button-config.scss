@@ -1,0 +1,333 @@
+// 所有不同type按钮自定义样式
+@import '../../style/variable.scss';
+
+// 按钮类型的配置
+$type: (
+  primary: (
+    color: $s-light-text,
+    background-color: $s-primary
+  ),
+  success: (
+    color: $s-light-text,
+    background-color: $s-success
+  ),
+  info: (
+    color: $s-light-text,
+    background-color: $s-info
+  ),
+  warning: (
+    color: $s-light-text,
+    background-color: $s-warning
+  ),
+  
+  danger: (
+    color: $s-light-text,
+    background-color: $s-danger
+  ),
+  default: (
+    color: $s-text,
+    background-color: $s-block,
+    border-color: $s-line
+  ),
+  text: (
+    padding: 0,
+    color: $s-brand-active
+  )
+);
+
+
+// 伪类的配置
+$pseudo: (
+  primary: (
+    hover: (
+      background-color: $s-primary-hover,
+      color: $s-light-text,
+    ),
+    focus: (
+      background-color: $s-primary-hover,
+      color: $s-light-text
+    ),
+    active: (
+      background-color: $s-primary-active,
+      color: $s-light-text,
+       
+    ),
+    disabled: (
+      color: $s-primary-dis-color,
+      background-color: $s-primary-dis-bg-color,
+      border-color: $s-primary-dis-border-color
+    )
+  ),
+
+  success: (
+    hover: (
+      background-color: $s-success-hover,
+      color: $s-light-text
+
+    ),
+    focus: (
+      background-color: $s-success-hover,
+      color: $s-light-text
+    ),
+    active: (
+      background-color: $s-success-active,
+      color: $s-light-text
+    ),
+    disabled: (
+      color: $s-success-dis-color,
+      background-color: $s-success-dis-bg-color,
+      border-color: $s-success-dis-border-color
+    )
+  ),
+  info: (
+    hover: (
+      background-color: $s-info-hover,
+      color: $s-light-text,
+    ),
+    focus: (
+      background-color: $s-info-hover,
+      color: $s-light-text,
+    ),
+    active: (
+      background-color: $s-info-active,
+      color: $s-light-text,
+    ),
+    disabled: (
+      color: $s-info-dis-color,
+      background-color: $s-info-dis-bg-color,
+      border-color: $s-info-dis-border-color
+    )
+  ),
+
+  warning: (
+    hover: (
+      background-color: $s-warning-hover,
+      color: $s-light-text,
+    ),
+    focus: (
+      background-color: $s-warning-hover
+    ),
+    active: (
+      background-color: $s-warning-active
+    ),
+    disabled: (
+      color: $s-warning-dis-color,
+      background-color: $s-warning-dis-bg-color,
+      border-color: $s-warning-dis-border-color
+    )
+  ),
+  
+  danger: (
+    hover: (
+      background-color: $s-danger-hover,
+      color: $s-light-text,
+    ),
+    focus: (
+      background-color: $s-danger-hover
+    ),
+    active: (
+      background-color: $s-danger-active
+    ),
+    disabled: (
+      color: $s-danger-dis-color,
+      background-color: $s-danger-dis-bg-color,
+      border-color: $s-danger-dis-border-color
+    )
+  ),
+  default: (
+    hover: (
+      border-color: $s-form-control-line-active,
+      color: $s-brand-active
+    ),
+    focus: (
+      border-color: $s-form-control-line-active,
+      color: $s-brand-active
+    ),
+    active: (
+      border-color: $s-form-control-line-active,
+      color: $s-brand-active
+    ),
+    disabled: (
+      color: $s-disabled-text,
+      background-color: $s-disabled-bg,
+      border: 1px solid $s-disabled-line
+    )
+  ),
+  text: (
+    hover: (
+      color: $s-brand-active-focus
+    ),
+    focus: (
+      color: $s-brand-active-focus
+    ),
+    active: (
+      color: $s-brand-active-focus
+    ),
+    disabled: (
+      color: $s-disabled-text
+    )
+  )
+);
+
+
+
+
+$pain: (
+  primary-pain: (
+    color: $s-primary,
+    background-color: $s-primary-pain,
+    border-color:$s-primary-border  
+  ),
+  success-pain: (
+    color: $s-success,
+    background-color: $s-success-pain,
+    border-color: $s-success-border
+  ),
+  info-pain: (
+    color: $s-info,
+    background-color: $s-info-pain,
+    border-color:$s-info-border
+  ),
+  warning-pain: (
+    color: $s-warning,
+    background-color: $s-warning-pain,
+    border-color:$s-warning-border
+  ),
+  
+  danger-pain: (
+    color: $s-danger,
+    background-color: $s-danger-pain,
+    border-color:$s-danger-border
+  ),
+  default-pain: (
+    color: $s-text,
+    background-color: $s-block,
+    border-color: $s-line
+  )
+);
+
+
+
+
+
+
+// pain 类型 伪类的配置
+$pseudoPain: (
+  primary: (
+    hover: (
+      background-color: $s-primary,
+      color: $s-light-text,
+    ),
+    focus: (
+      background-color: $s-primary,
+      color: $s-light-text
+    ),
+    active: (
+      background-color: $s-primary-active,
+      color: $s-light-text,
+       
+    ),
+    disabled: (
+      color: $s-primary-dis-pain-color,
+      background-color: $s-primary-dis-pain-bg-color,
+      border-color: $s-primary-dis-pain-border-color
+    )
+  ),
+  success: (
+    hover: (
+      background-color: $s-success,
+      color: $s-light-text,
+    ),
+    focus: (
+      background-color: $s-success,
+      color: $s-light-text
+    ),
+    active: (
+      background-color: $s-success-active,
+      color: $s-light-text,
+       
+    ),
+    disabled: (
+      color: $s-success-dis-pain-color,
+      background-color: $s-success-dis-pain-bg-color,
+      border-color: $s-success-dis-pain-border-color
+    )
+  ),
+  info: (
+    hover: (
+      background-color: $s-info,
+      color: $s-light-text,
+    ),
+    focus: (
+      background-color: $s-info,
+      color: $s-light-text
+    ),
+    active: (
+      background-color: $s-info-active,
+      color: $s-light-text,
+       
+    ),
+    disabled: (
+      color: $s-info-dis-pain-color,
+      background-color: $s-info-dis-pain-bg-color,
+      border-color: $s-info-dis-pain-border-color
+    )
+  ),
+  warning: (
+    hover: (
+      background-color: $s-warning,
+      color: $s-light-text,
+    ),
+    focus: (
+      background-color: $s-warning,
+      color: $s-light-text
+    ),
+    active: (
+      background-color: $s-warning-active,
+      color: $s-light-text,
+       
+    ),
+    disabled: (
+      color: $s-warning-dis-pain-color,
+      background-color: $s-warning-dis-pain-bg-color,
+      border-color: $s-warning-dis-pain-border-color
+    )
+  ),
+  danger: (
+    hover: (
+      background-color: $s-danger,
+      color: $s-light-text,
+    ),
+    focus: (
+      background-color: $s-danger,
+      color: $s-light-text
+    ),
+    active: (
+      background-color: $s-danger-active,
+      color: $s-light-text,
+       
+    ),
+    disabled: (
+      color: $s-danger-dis-pain-color,
+      background-color: $s-danger-dis-pain-bg-color,
+      border-color: $s-danger-dis-pain-border-color
+    )
+  ),
+);
+
+// 按钮尺寸
+$size: (
+  small: (
+    height: 24px,
+    padding: 0 16px,
+    font-size: $s-font-size-sm
+  ),
+  default: ( 
+    font-size: $s-font-size-md
+  ),
+  large: (
+    height: 32px,
+    padding: 0 24px,
+    font-size: $s-font-size-lg
+  )
+);
