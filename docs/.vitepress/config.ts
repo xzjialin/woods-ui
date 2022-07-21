@@ -24,7 +24,8 @@ const sidebar = {
     },
     { text: '数据展示', items: [
       { text: 'Tree 树', link: '/components/tree/' },
-      { text: 'Tag 标签', link: '/components/tag/' }
+      { text: 'Tag 标签', link: '/components/tag/' },
+      { text: 'ShowMore 显示更多', link: '/components/showMore/' }
     ] }
 
   ]

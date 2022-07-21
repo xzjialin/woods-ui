@@ -25,3 +25,10 @@ export function addUnit(value: string | number, defaultUnit = 'px') {
   }
   console.warn('绑定值必须是字符串或数字')
 }
+
+export function filterText (value:string, textLen:number) {
+  if (textLen !== -1 && textLen < value.length) {
+    return value.substring(0, textLen) + '...'
+  }
+  return value
+}

@@ -5,6 +5,8 @@ import TreeInstall, { Tree } from './tree'
 import IconInstall, { Icon } from './icon'
 import SpaceInstall, { Space } from './space'
 import StagInstall, { Stag } from './tag'
+import SMoreInstall, { SMore } from './showMore'
+
 import LayoutInstall, { Srow,Scol } from './layout'
 
 import ContainerInstall, { Container, Header, Main,Footer,Aside } from './container'
@@ -16,7 +18,8 @@ const installs = [
   TreeInstall,
   SpaceInstall,
   LayoutInstall,
-  StagInstall
+  StagInstall,
+  SMoreInstall
 ]
 
 export {
@@ -31,7 +34,8 @@ export {
   Space,
   Srow,
   Scol,
-  Stag
+  Stag,
+  SMore
 }
 
 export default {

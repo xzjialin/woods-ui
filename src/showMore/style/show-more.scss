@@ -1,0 +1,18 @@
+@import '../../style/variable.scss';
+.s-show-more {
+    font-size: 13px;
+    color: var($-show-more-color);
+    a {
+        color: #6190e8;
+      }
+}
+.s-show-more a：link {  
+    color: var($-show-more-color-primary);
+    cursor: pointer;
+    text-decoration: none;
+} 
+
+.s-show-more href {  
+    color: var($-show-more-color-primary);
+    cursor: pointer;
+} 
