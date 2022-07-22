@@ -16,17 +16,22 @@ const sidebar = {
       { text:'Space 间距',link:'/components/space/'}
     ]
   },
+  { text: '数据展示', items: [
+    { text: 'Tree 树', link: '/components/tree/' },
+    { text: 'Tag 标签', link: '/components/tag/' },
+    { text: 'ShowMore 显示更多', link: '/components/showMore/' }
+  ] },
     // { text: '导航', items: [] },
     // { text: '反馈', items: [] },
     {
       text: '数据录入',
       items: [{ text: 'Input 输入框', link: '/components/input/' }]
     },
-    { text: '数据展示', items: [
-      { text: 'Tree 树', link: '/components/tree/' },
-      { text: 'Tag 标签', link: '/components/tag/' },
-      { text: 'ShowMore 显示更多', link: '/components/showMore/' }
-    ] }
+    {
+      text: '可视化组件',
+      items: [{ text: 'Input 输入框', link: '/components/input/' }]
+    },
+  
 
   ]
 }

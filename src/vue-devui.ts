@@ -6,6 +6,7 @@ import IconInstall, { Icon } from './icon'
 import SpaceInstall, { Space } from './space'
 import StagInstall, { Stag } from './tag'
 import SMoreInstall, { SMore } from './showMore'
+import SinputInstall, { Sinput } from './input'
 
 import LayoutInstall, { Srow,Scol } from './layout'
 
@@ -19,7 +20,8 @@ const installs = [
   SpaceInstall,
   LayoutInstall,
   StagInstall,
-  SMoreInstall
+  SMoreInstall,
+  SinputInstall
 ]
 
 export {
@@ -35,7 +37,8 @@ export {
   Srow,
   Scol,
   Stag,
-  SMore
+  SMore,
+  Sinput
 }
 
 export default {
